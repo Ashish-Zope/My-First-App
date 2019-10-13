@@ -31,9 +31,11 @@
 <App-Server *ngFor="let server of Servers"></App-Server>
 
 
+<button class="btn btn-primary" (click)="displayDetails =! displayDetails">Display Details </button>
 
-
-
+<p *ngIf="displayDetails">
+    set password= 'tuna'
+</p>
 
 
 

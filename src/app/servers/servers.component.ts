@@ -13,6 +13,7 @@ export class ServersComponent implements OnInit{
   userStatus='';
   serverCreated:boolean=false;
   Servers=['TestServer']
+ displayDetails:boolean=false;
   ngOnInit(){}
   constructor()
   {
